@@ -32,5 +32,30 @@ npm uninstall <<package>>
 |![image](https://github.com/user-attachments/assets/a4cc3ef1-c162-4bcc-983a-537a89a18221)|![image](https://github.com/user-attachments/assets/f147e253-5b85-496a-b3ab-e49cea25b3e8)|
 |![image](https://github.com/user-attachments/assets/0bd65092-5ea8-41fc-a428-c0cc70d94cd0)|![image](https://github.com/user-attachments/assets/4e129ee1-648d-4e90-b40d-6a01fda934fc)|
 
+## Praktyka. process, zmiene srodowiskowe
 
+```js
+
+// aplication arguments
+process.argv
+
+node ./main.js arg1 arg2 arg3
+
+args [
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\taras\\Desktop\\Learn Programming\\NodeJsFundamentaCourse\\project\\main.js',
+  'asdf',
+  'asdf',
+  'f'
+]
+
+// envirement variables
+process.env
+
+//id process
+process.pid
+
+// exit application
+process.exit();
+```
 
