@@ -59,3 +59,19 @@ process.pid
 process.exit();
 ```
 
+## Path, URL
+
+```js
+
+__filename
+__dirname
+path.join("1","2","3") // 1/2/3
+const a = path.resolve("1","2","3")
+path.parse(a)
+```
+
+|![image](https://github.com/user-attachments/assets/6ace09b5-d0c9-4569-8746-d3392ff484f2)|![image](https://github.com/user-attachments/assets/8db4d9b0-1535-40f1-8616-990940d8849d)|
+|-|-|
+
+
+
