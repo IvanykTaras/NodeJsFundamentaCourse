@@ -74,4 +74,8 @@ path.parse(a)
 |-|-|
 
 
+## Systema plików CRUD
+
+<img src=https://github.com/user-attachments/assets/77370e89-9dba-4dbd-9774-6727d1a23cf3 height=250/>
+
 
