@@ -2,7 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "main": "main.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node main.js"
@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "crypto": "^1.0.1",
     "dotenv": "^16.4.7"
   }

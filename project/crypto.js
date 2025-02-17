@@ -1,8 +1,7 @@
-import crypto from "crypto";
-// const crypto = require("crypto");
+// import crypto from "crypto";
+const crypto = require("crypto");
 
 
-export const startCrypto = () => {
 
 const start = Date.now();
 
@@ -21,5 +20,3 @@ crypto.pbkdf2("1234","54321",1000000,64,"sha512", () => {
 crypto.pbkdf2("1234","54321",1000000,64,"sha512", () => {
     console.log("5 end: ", Date.now() - start);
 })
-
-}

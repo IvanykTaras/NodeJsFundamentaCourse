@@ -1,22 +1,20 @@
-import { configDotenv } from "dotenv";
+const configDotenv = require("dotenv").config;
 
-export const startProcess = () => {
-    console.log(process.pid);
+console.log(process.pid);
 
 
-    // node m
-    console.log("args", process.argv);
+// node m
+console.log("args", process.argv);
 
-    console.log(configDotenv());
+console.log(configDotenv());
 
-    const n = process.env.NODE_ENV = 'development';
-    const p = process.env.PORT = 3000;
-    console.log(n, p);
-    
+const n = process.env.NODE_ENV = 'development';
+const p = process.env.PORT = 3000;
+console.log(n, p);
 
-    while(Math.random > 0.5) {
-        console.count("looping");
 
-        process.exit();
-    }
+while(Math.random > 0.5) {
+    console.count("looping");
+
+    process.exit();
 }
